@@ -5,7 +5,7 @@ import inspect
 
 def logger(old_function):
     def log(func, *args, **kwargs):
-        with open('main.log', mode='a') as file:
+        with open('main.log', mode='a', encoding='utf-8') as file:
             execution_time = strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
             file.write(f"Exec time UTC: {execution_time};\n"
                        f"Name of function: {old_function.__name__};\n"
