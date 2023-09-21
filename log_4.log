@@ -1,0 +1,4 @@
+Exec time UTC: Thu, 21 Sep 2023 09:01:18 +0000;
+Name of function: print_shop_list;
+Call arguments: ({'Яйцо': {'measure': 'шт', 'quantity': 4}, 'Молоко': {'measure': 'мл', 'quantity': 200}, 'Помидор': {'measure': 'шт', 'quantity': 4}},), {};
+Function call data: None;

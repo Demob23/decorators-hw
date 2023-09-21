@@ -13,11 +13,8 @@ def logger(old_function):
                        f"Function call data: {func(*args, **kwargs)};\n")
 
     def new_function(*args, **kwargs):
-        # if len(args) != 0 or len(kwargs) != 0:
         result = old_function(*args, **kwargs)
         log(old_function, *args, **kwargs)
-        # else:
-        #     result = old_function()
 
         return result
 
